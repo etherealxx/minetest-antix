@@ -40,21 +40,6 @@ build/.cmake/
 *.rej
 
 ## Non-static Minetest directories or symlinks to these
-/bin/
-/games/*
-!/games/devtest/
-/cache
-/textures/*
-!/textures/base/
-/screenshots
-/sounds
-/mods/*
-!/mods/mods_here.txt
-/worlds/*
-!/worlds/worlds_here.txt
-/clientmods/*
-!/clientmods/preview/
-/client/mod_storage/
 
 ## Configuration/log files
 minetest.conf
