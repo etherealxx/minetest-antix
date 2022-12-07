@@ -1,0 +1,417 @@
+Determining if the _IRR_COMPILE_WITH_OGLES1_ exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_637b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_637b1.dir/build.make CMakeFiles/cmTC_637b1.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_637b1.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/ethereal/Downloads/minetest/lib/irrlichtmt/include -fPIE -o CMakeFiles/cmTC_637b1.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_IRR_COMPILE_WITH_OGLES1_’ undeclared (first use in this function)
+    8 |   return ((int*)(&_IRR_COMPILE_WITH_OGLES1_))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_637b1.dir/build.make:85: CMakeFiles/cmTC_637b1.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_637b1/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <IrrCompileConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _IRR_COMPILE_WITH_OGLES1_
+  return ((int*)(&_IRR_COMPILE_WITH_OGLES1_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _IRR_COMPILE_WITH_OGLES2_ exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1f1fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f1fc.dir/build.make CMakeFiles/cmTC_1f1fc.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f1fc.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/ethereal/Downloads/minetest/lib/irrlichtmt/include -fPIE -o CMakeFiles/cmTC_1f1fc.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_IRR_COMPILE_WITH_OGLES2_’ undeclared (first use in this function)
+    8 |   return ((int*)(&_IRR_COMPILE_WITH_OGLES2_))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_1f1fc.dir/build.make:85: CMakeFiles/cmTC_1f1fc.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_1f1fc/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <IrrCompileConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _IRR_COMPILE_WITH_OGLES2_
+  return ((int*)(&_IRR_COMPILE_WITH_OGLES2_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _IRR_COMPILE_WITH_SDL_DEVICE_ exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2a2e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a2e5.dir/build.make CMakeFiles/cmTC_2a2e5.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a2e5.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/ethereal/Downloads/minetest/lib/irrlichtmt/include -fPIE -o CMakeFiles/cmTC_2a2e5.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_IRR_COMPILE_WITH_SDL_DEVICE_’ undeclared (first use in this function)
+    8 |   return ((int*)(&_IRR_COMPILE_WITH_SDL_DEVICE_))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_2a2e5.dir/build.make:85: CMakeFiles/cmTC_2a2e5.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_2a2e5/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <IrrCompileConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _IRR_COMPILE_WITH_SDL_DEVICE_
+  return ((int*)(&_IRR_COMPILE_WITH_SDL_DEVICE_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_78773/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_78773.dir/build.make CMakeFiles/cmTC_78773.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78773.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_78773.dir/src.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_78773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78773.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_78773.dir/src.c.o -o cmTC_78773 
+/usr/bin/ld: CMakeFiles/cmTC_78773.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_78773.dir/build.make:106: cmTC_78773] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_78773/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the luaopen_string_buffer exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8827a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8827a.dir/build.make CMakeFiles/cmTC_8827a.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8827a.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/usr/include/luajit-2.1  -o CMakeFiles/cmTC_8827a.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘luaopen_string_buffer’ undeclared (first use in this function); did you mean ‘luaopen_string’?
+    8 |   return ((int*)(&luaopen_string_buffer))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+      |                   luaopen_string
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_8827a.dir/build.make:85: CMakeFiles/cmTC_8827a.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_8827a/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <lualib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef luaopen_string_buffer
+  return ((int*)(&luaopen_string_buffer))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _IRR_COMPILE_WITH_OGLES1_ exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e5b47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5b47.dir/build.make CMakeFiles/cmTC_e5b47.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5b47.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/ethereal/Downloads/minetest/lib/irrlichtmt/include -fPIE -o CMakeFiles/cmTC_e5b47.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_IRR_COMPILE_WITH_OGLES1_’ undeclared (first use in this function)
+    8 |   return ((int*)(&_IRR_COMPILE_WITH_OGLES1_))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_e5b47.dir/build.make:85: CMakeFiles/cmTC_e5b47.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_e5b47/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <IrrCompileConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _IRR_COMPILE_WITH_OGLES1_
+  return ((int*)(&_IRR_COMPILE_WITH_OGLES1_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _IRR_COMPILE_WITH_OGLES2_ exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_16ee6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16ee6.dir/build.make CMakeFiles/cmTC_16ee6.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16ee6.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/ethereal/Downloads/minetest/lib/irrlichtmt/include -fPIE -o CMakeFiles/cmTC_16ee6.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_IRR_COMPILE_WITH_OGLES2_’ undeclared (first use in this function)
+    8 |   return ((int*)(&_IRR_COMPILE_WITH_OGLES2_))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_16ee6.dir/build.make:85: CMakeFiles/cmTC_16ee6.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_16ee6/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <IrrCompileConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _IRR_COMPILE_WITH_OGLES2_
+  return ((int*)(&_IRR_COMPILE_WITH_OGLES2_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _IRR_COMPILE_WITH_SDL_DEVICE_ exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a5a09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5a09.dir/build.make CMakeFiles/cmTC_a5a09.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5a09.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/ethereal/Downloads/minetest/lib/irrlichtmt/include -fPIE -o CMakeFiles/cmTC_a5a09.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_IRR_COMPILE_WITH_SDL_DEVICE_’ undeclared (first use in this function)
+    8 |   return ((int*)(&_IRR_COMPILE_WITH_SDL_DEVICE_))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_a5a09.dir/build.make:85: CMakeFiles/cmTC_a5a09.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_a5a09/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <IrrCompileConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _IRR_COMPILE_WITH_SDL_DEVICE_
+  return ((int*)(&_IRR_COMPILE_WITH_SDL_DEVICE_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the luaopen_string_buffer exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bea00/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bea00.dir/build.make CMakeFiles/cmTC_bea00.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bea00.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/usr/include/luajit-2.1  -o CMakeFiles/cmTC_bea00.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘luaopen_string_buffer’ undeclared (first use in this function); did you mean ‘luaopen_string’?
+    8 |   return ((int*)(&luaopen_string_buffer))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+      |                   luaopen_string
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_bea00.dir/build.make:85: CMakeFiles/cmTC_bea00.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_bea00/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <lualib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef luaopen_string_buffer
+  return ((int*)(&luaopen_string_buffer))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _IRR_COMPILE_WITH_OGLES1_ exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_efdc4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_efdc4.dir/build.make CMakeFiles/cmTC_efdc4.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efdc4.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/ethereal/Downloads/minetest/lib/irrlichtmt/include -fPIE -o CMakeFiles/cmTC_efdc4.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_IRR_COMPILE_WITH_OGLES1_’ undeclared (first use in this function)
+    8 |   return ((int*)(&_IRR_COMPILE_WITH_OGLES1_))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_efdc4.dir/build.make:85: CMakeFiles/cmTC_efdc4.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_efdc4/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <IrrCompileConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _IRR_COMPILE_WITH_OGLES1_
+  return ((int*)(&_IRR_COMPILE_WITH_OGLES1_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _IRR_COMPILE_WITH_OGLES2_ exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_341a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_341a6.dir/build.make CMakeFiles/cmTC_341a6.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_341a6.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/ethereal/Downloads/minetest/lib/irrlichtmt/include -fPIE -o CMakeFiles/cmTC_341a6.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_IRR_COMPILE_WITH_OGLES2_’ undeclared (first use in this function)
+    8 |   return ((int*)(&_IRR_COMPILE_WITH_OGLES2_))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_341a6.dir/build.make:85: CMakeFiles/cmTC_341a6.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_341a6/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <IrrCompileConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _IRR_COMPILE_WITH_OGLES2_
+  return ((int*)(&_IRR_COMPILE_WITH_OGLES2_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _IRR_COMPILE_WITH_SDL_DEVICE_ exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2455a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2455a.dir/build.make CMakeFiles/cmTC_2455a.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2455a.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/ethereal/Downloads/minetest/lib/irrlichtmt/include -fPIE -o CMakeFiles/cmTC_2455a.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_IRR_COMPILE_WITH_SDL_DEVICE_’ undeclared (first use in this function)
+    8 |   return ((int*)(&_IRR_COMPILE_WITH_SDL_DEVICE_))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_2455a.dir/build.make:85: CMakeFiles/cmTC_2455a.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_2455a/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <IrrCompileConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _IRR_COMPILE_WITH_SDL_DEVICE_
+  return ((int*)(&_IRR_COMPILE_WITH_SDL_DEVICE_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the luaopen_string_buffer exist failed with the following output:
+Change Dir: /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8f8eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f8eb.dir/build.make CMakeFiles/cmTC_8f8eb.dir/build
+gmake[1]: Entering directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f8eb.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/usr/include/luajit-2.1  -o CMakeFiles/cmTC_8f8eb.dir/CheckSymbolExists.c.o -c /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘luaopen_string_buffer’ undeclared (first use in this function); did you mean ‘luaopen_string’?
+    8 |   return ((int*)(&luaopen_string_buffer))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+      |                   luaopen_string
+/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_8f8eb.dir/build.make:85: CMakeFiles/cmTC_8f8eb.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_8f8eb/fast] Error 2
+
+
+File /home/ethereal/Downloads/minetest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <lualib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef luaopen_string_buffer
+  return ((int*)(&luaopen_string_buffer))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
